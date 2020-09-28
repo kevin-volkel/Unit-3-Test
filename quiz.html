@@ -17,14 +17,56 @@
 
 <body style="background-image: url(images/lightBackground.png);">
 
-<fieldset>
-    <legend>Links to Other Pages</legend>
-    <ul>
-        <li><a href="index.html">Home Page</a></li>
-        <li><a href="quiz.html">Quiz</a></li>
-        <li><a href="survey.html">Survey</a></li>
-    </ul>
-</fieldset>
-    
+    <nav>
+        <fieldset>
+            <legend>Links to Other Pages</legend>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </fieldset>
+    </nav>
+
+    <form action="" method="POST">
+        <section>
+            <fieldset>
+                <legend>Multiple Choice</legend>
+                <p>What is the <em>scientific</em> name of H<sub>2</sub>O?</p>
+                <ul>
+                    <li><input type="radio" name="answer1" id="user.question1.wrong"> Air</li>
+                    <li><input type="radio" name="answer1" id="user.question1.wrong"> Fire</li>
+                    <li><input type="radio" name="answer1" id="user.question1.wrong"> Earth</li>
+                    <li><input type="radio" name="answer1" id="user.question1.right"> Water</li>
+                </ul>
+
+                <p>What is the <em>most popular</em> name for Dec. 25<sup>th</sup></p>
+                <ul>
+                    <li><input type="radio" name="answer2" id="user.question2.right"> Christmas</li>
+                    <li><input type="radio" name="answer2" id="user.question2.wrong"> Thanksgiving</li>
+                    <li><input type="radio" name="answer2" id="user.question2.wrong"> Valentine's Day</li>
+                    <li><input type="radio" name="answer2" id="user.question2.wrong"> Halloween</li>
+                </ul>
+
+                <p>Which of the following is the chemical code for <strong>sugar</strong>?</p>
+                <ul>
+                    <li><input type="radio" name="answer3" id="user.question3.wrong">C<sub>12</sub>H<sub>22</sub>O<sub>11</sub></li>
+                    <li><input type="radio" name="answer3" id="user.question3.wrong">C<sub>5</sub>H<sub>10</sub>O<sub>5</sub></li>
+                    <li><input type="radio" name="answer3" id="user.question3.right">C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></li>
+                    <li><input type="radio" name="answer3" id="user.question3.wrong">C<sub>11</sub>H<sub>22</sub>O<sub>11</sub></li>
+                </ul>
+
+                <p>Which of the following are even?</p>
+                <ul>
+                    <li><input type="checkbox" name="answer4" id="user.question4.wrong">1<sup>st</sup></li>
+                    <li><input type="checkbox" name="answer4" id="user.question4.wrong">2<sup>nd</sup></li>
+                    <li><input type="checkbox" name="answer4" id="user.question4.right">3<sup>rd</sup></li>
+                    <li><input type="checkbox" name="answer4" id="user.question4.wrong">4<sup>th</sup></li>
+                </ul>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </section>
+    </form>
+
 </body>
 </html>
